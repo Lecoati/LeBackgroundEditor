@@ -1,0 +1,9 @@
+/Src/Lecoati.LeBackgroundEditor.Extension/obj
+/Src/Lecoati.LeBackgroundEditor.Extension/bin
+/Src/Lecoati.LeBackgroundEditor.Extension/*.user
+/Src/Lecoati.LeBackgroundEditor.Extension/App_Data
+/packages
+/build/*.nupkg
+/*.sln.ide
+*.suo
+/Src/Lecoati.LeBackgroundEditor.Extension/Lecoati.LeBackgroundEditor.Extension.csproj.user

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Lecoati.LeBackgroundEditor</id>
+        <version>1.0.1</version>
+        <title>Umbraco LeBackgroundEditor</title>
+        <authors>LECOATI</authors>
+        <owners>LECOATI</owners>
+        <projectUrl>http://www.lecoati.com/</projectUrl>
+        <description>Umbarco LeBackgroundEditor</description>
+        <summary>Umbarco LeBackgroundEditor</summary>
+        <language>en-US</language>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <tags>LECOATI</tags>
+		<iconUrl>https://googledrive.com/host/0B7lGBm_rpSMwNDkxeF82TE9IUGM/Logo_LeBackground.png</iconUrl>
+		<dependencies />
+    </metadata>
+	<files>
+		<file src="..\src\Lecoati.LeBackgroundEditor.Ui\App_Plugins\LeBackgroundEditor\**\*.*" target="Content\App_Plugins\LeBackgroundEditor" /> 
+		<file src="..\src\Lecoati.LeBackgroundEditor.Extension\bin\Lecoati.LeBackgroundEditor.Extension.dll" target="lib\Lecoati.LeBackgroundEditor.Extension.dll" /> 
+	</files>
+</package>

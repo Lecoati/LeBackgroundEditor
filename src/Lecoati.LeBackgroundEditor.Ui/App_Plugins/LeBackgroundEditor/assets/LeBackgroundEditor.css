@@ -1,0 +1,17 @@
+.toggle-picker {
+	color: #2E8AEA;
+    text-transform: none;
+    font-weight: 100;
+    text-decoration: underline;
+}
+
+.opacity-monitor {
+	border: 1px solid #cbcbcb;
+	border-radius: 1px;
+	margin-bottom: 10px;
+	width: 206px;
+}
+
+.opacity-monitor-inner {
+	height: 25px;
+}

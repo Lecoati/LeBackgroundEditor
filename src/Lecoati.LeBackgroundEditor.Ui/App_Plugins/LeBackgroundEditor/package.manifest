@@ -1,0 +1,40 @@
+﻿{   
+	propertyEditors: [      
+		{
+            alias: "LeBackgroundEditor",
+            name: "LeBackgroundEditor",
+            editor: {
+                view: "~/App_Plugins/LeBackgroundEditor/LeBackgroundEditor.html"
+            },
+			prevalues: {
+				fields: [
+					{
+						label: "Select color set",
+						description: "Choose the color set configured in a Approved Colors data type",
+						key: "colorsDataType",
+						view: "~/App_Plugins/LeBackgroundEditor/editors/ColorPickerDataType.html",
+						validation: [
+							{
+								type: "Required" 
+							}                        
+						]
+					},
+					{
+                        "label": "Enable the image picker",
+                        "key": "imagePickerEnabled",
+                        "description": "Let the user select an image for the background",
+                        "view": "boolean"
+                    }
+				]
+			}
+        }
+    ],
+    javascript: [
+		'~/App_Plugins/LeBackgroundEditor/common/services/requesthelper.service.js',
+		'~/App_Plugins/LeBackgroundEditor/LeBackgroundEditor.controller.js',
+		'~/App_Plugins/LeBackgroundEditor/editors/ColorPickerDataType.controller.js'
+    ],
+	css: [
+		'~/App_Plugins/LeBackgroundEditor/assets/LeBackgroundEditor.css'
+	]
+}
